@@ -48,3 +48,10 @@ header > * {
 header::after {
     background: none !important;
 }
+
+/* changes to the header breaks the technologydetails section */
+#technologydetails_wrapper {
+    z-index: 999 !important;
+    position: relative !important;
+}
+
