@@ -1,0 +1,50 @@
+body {
+    background: #111827 !important;
+}
+
+.menubutton {
+    background:  hsl(215, 19%, 35%) !important;
+    color: white !important
+}
+
+.selected {
+    background: #94a3b8 !important;
+}
+
+
+/* ******************* */
+/* Ugly shit to remove */
+/* ******************* */
+
+.premiumHighligt span {
+    color: unset !important
+}
+
+#top {
+    background: none !important;
+}
+
+/* resources  */
+header {
+    background: none !important;
+    position: relative !important;
+    height: auto !important;
+    margin-bottom: 24px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+header h2 {
+    left: 0 !important;
+    top: 0 !important;
+}
+
+header > * {
+    position: relative !important;
+}
+
+header::after {
+    background: none !important;
+}
